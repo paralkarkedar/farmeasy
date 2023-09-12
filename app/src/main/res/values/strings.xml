@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FarmEasy App</string>
+
+    <string name="first_slide">Choose Your Products</string>
+    <string name="Second_slide">Fast Delivery</string>
+    <string name="third_slide">Good Service </string>
+
+    <string name="description">Agricultural and farming services provide information, consulting, equipment, and supplies to the agricultural industry products</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

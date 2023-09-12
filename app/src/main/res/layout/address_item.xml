@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="8dp"
+    android:background="#040404"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/ic_launcher_background"
+        android:text="US California"
+        android:id="@+id/address_add"/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/select_address"
+        app:layout_constraintStart_toEndOf="@+id/address_add"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
